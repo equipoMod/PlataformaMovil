@@ -16,14 +16,13 @@
         android:text="@string/main.txt.title" />
 
     <Button
+        android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="EquipoMod"/>
+        android:layout_marginTop="37dp"
+        android:id="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="FUNCIONA"/>
+
 </RelativeLayout>
