@@ -20,6 +20,7 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
         btn =(Button)findViewById(R.id.btn);
+        btn.setOnClickListener(this);
     }
 
     @Override
