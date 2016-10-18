@@ -25,14 +25,14 @@ public class Main3Activity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://developer.android.com/index.html"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://sistemasycomputacion.mx/moodle"));
         PendingIntent pendingIntent= PendingIntent.getActivity(this,0,intent,0);
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
-        builder.setSmallIcon(R.mipmap.ic_launcher);
+        builder.setSmallIcon(R.mipmap.ic_app);
         builder.setContentIntent(pendingIntent);
         builder.setAutoCancel(true);
-        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher));
+        builder.setLargeIcon(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_app));
         builder.setContentTitle("Notificacion Basica");
         builder.setContentText("Tienes una tarea para subir hoy");
         builder.setSubText("Toca para ver mas informacion");
