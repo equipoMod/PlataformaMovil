@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PlataformaMovil</string>
     <string name="main.txt.title">Proyecto Moodle</string>
+    <string name="Usuario">Usuario</string>
 </resources>
