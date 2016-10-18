@@ -20,6 +20,9 @@
 
         <Button
             android:layout_width="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorLightBlue"
             android:layout_height="wrap_content"
             android:id="@+id/btnRegresar"
             android:text="Regresar"/>
@@ -27,12 +30,19 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorLightBlue"
             android:id="@+id/btnActualizar"
             android:text="Actualizar"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorLightBlue"
             android:id="@+id/btnOutSes"
             android:text="Cerrar Sesion"/>
     </LinearLayout>
@@ -41,7 +51,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/holo_red_light"/>
+        android:background="@color/colorRed"/>
 
 
 </LinearLayout>
