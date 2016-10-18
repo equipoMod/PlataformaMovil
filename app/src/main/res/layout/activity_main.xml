@@ -22,7 +22,22 @@
         android:id="@+id/btn_act3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LOL"
-        android:layout_marginTop="50dp"/>
+        android:text="NOTIFICACIONES"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="LEER CORREO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/btn_act2"
+        android:layout_below="@+id/btn_act3"
+        android:layout_alignRight="@+id/btn_act3"
+        android:layout_alignEnd="@+id/btn_act3"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp" />
 
 </RelativeLayout>
