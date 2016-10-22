@@ -8,5 +8,7 @@
     <color name="colorDarkRed">#541303</color>
     <color name="colorLightBlue">#00AEFF</color>
     <color name="colorNegro">#000000</color>
+    <color name="colorGris">#FF615B5B</color>
     <color name="colorBlanco">#ffffff</color>
+    <color name="colorGrisHint">#c9c8c8</color>
 </resources>

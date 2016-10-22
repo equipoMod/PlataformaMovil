@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">PlataformaMovil</string>
     <string name="main.txt.title">Proyecto Moodle</string>
-    <string name="Usuario">Usuario</string>
+    <string name="log.user.hint">Ingrese su usuario</string>
+    <string name="log.pass.hint">Ingrese su contraseña</string>
+
 </resources>
