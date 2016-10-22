@@ -3,5 +3,6 @@
     <string name="main.txt.title">Proyecto Moodle</string>
     <string name="log.user.hint">Ingrese su usuario</string>
     <string name="log.pass.hint">Ingrese su contraseña</string>
+    <string name="mail.title">Correos</string>
 
 </resources>

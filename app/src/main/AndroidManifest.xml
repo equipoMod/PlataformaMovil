@@ -8,7 +8,7 @@
         android:label="Plataforma Móvil"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main4Activity">
+        <activity android:name=".Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,18 +18,8 @@
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".Main3Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN3ACTIVITY" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN2ACTIVITY" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
+        <activity android:name=".Main4Activity">
         </activity>
 
     </application>
