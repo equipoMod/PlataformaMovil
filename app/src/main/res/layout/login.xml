@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorNegro"
-    tools:context="com.itchihuahuaii.plataformamovil.Main4Activity"
+    tools:context="com.itchihuahuaii.plataformamovil.Login"
     android:foregroundTint="#000000">
 
 

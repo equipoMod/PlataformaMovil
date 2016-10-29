@@ -28,10 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             startActivity(intent);
         }if(v.getId()==R.id.btn_act2){
-            Intent intent = new Intent(this,Main2Activity.class);
 
-
-            startActivity(intent);
         }
     }
 }

@@ -8,7 +8,7 @@
         android:label="Plataforma Móvil"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,8 +18,6 @@
         <activity android:name=".MainActivity">
         </activity>
         <activity android:name=".Main3Activity">
-        </activity>
-        <activity android:name=".Main4Activity">
         </activity>
 
     </application>
