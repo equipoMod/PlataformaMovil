@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/curso_icono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            />
+        <TextView
+            android:id="@+id/curso_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo del Curso"
+            android:textSize="12dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/curso_tareas_pendientes"
+            android:layout_width="wrap_content"
+            android:textSize="12dp"
+            android:text="Tareas pendientes"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/curso_nombre_profesor"
+            android:layout_width="wrap_content"
+            android:textSize="12dp"
+            android:text="Nombre del profesor "
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dee4ee"
+        ></LinearLayout>
+
+</LinearLayout>
