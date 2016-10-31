@@ -4,8 +4,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,13 +23,14 @@ public class AdaptadorCursos
         public TextView titulo_curso;
         public TextView tareas_pendientes;
         public TextView nombre_profesor;
+        public ImageView curso_icono;
 
         public ViewHolder(View v) {
             super(v);
             titulo_curso = (TextView) v.findViewById(R.id.curso_titulo);
             tareas_pendientes = (TextView) v.findViewById(R.id.curso_tareas_pendientes);
             nombre_profesor = (TextView) v.findViewById(R.id.curso_nombre_profesor);
-
+            curso_icono =(ImageView)v.findViewById(R.id.curso_icono);
             titulo_curso.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -56,6 +60,9 @@ public class AdaptadorCursos
         viewHolder.titulo_curso.setText(item.titulo_curso);
         viewHolder.tareas_pendientes.setText(item.tareas_pendientes);
         viewHolder.nombre_profesor.setText(item.nombre_profesor);
+        viewHolder.curso_icono.setImageResource(item.icono_curso);
+
+
     }
 
 
@@ -63,19 +70,21 @@ public class AdaptadorCursos
         public String titulo_curso;
         public String tareas_pendientes;
         public String nombre_profesor;
+        public int icono_curso;
 
-        public Curso(String titulo_curso, String tareas_pendientes,String nombre_profesor) {
+        public Curso(String titulo_curso, String tareas_pendientes,String nombre_profesor,int icono_curso) {
             this.titulo_curso = titulo_curso;
             this.tareas_pendientes = tareas_pendientes;
             this.nombre_profesor=nombre_profesor;
+            this.icono_curso=icono_curso;
         }
 
         public final static List<Curso> CURSOS = new ArrayList<>();
 
         static {
-            CURSOS.add(new Curso("Sistemas Operativos Moviles","Tienes 2 tareas pendientes","Alonso"));
-            CURSOS.add(new Curso("Base de datos","Tienes 1 tarea pendiente","Ignacio"));
-            CURSOS.add(new Curso("Redes de computadoras","No tienes tareas pendientes","Angelica"));
+            CURSOS.add(new Curso("Sistemas Operativos Moviles","Tienes 2 tareas pendientes","Alonso",R.drawable.homework_icon));
+            CURSOS.add(new Curso("Base de datos","Tienes 1 tarea pendiente","Ignacio",R.mipmap.ic_app));
+            CURSOS.add(new Curso("Redes de computadoras","No tienes tareas pendientes","Angelica",R.mipmap.ic_ejemplo));
 
         }
     }

@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class FragmentTareas extends Fragment {
 
-    private LinearLayoutManager linearLayout;
+    private GridLayoutManager linearLayout;
 
     public FragmentTareas() {
         // Required empty public constructor
