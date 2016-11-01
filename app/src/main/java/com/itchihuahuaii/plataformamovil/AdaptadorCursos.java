@@ -82,9 +82,9 @@ public class AdaptadorCursos
         public final static List<Curso> CURSOS = new ArrayList<>();
 
         static {
-            CURSOS.add(new Curso("Sistemas Operativos Moviles","Tienes 2 tareas pendientes","Alonso",R.drawable.homework_icon));
-            CURSOS.add(new Curso("Base de datos","Tienes 1 tarea pendiente","Ignacio",R.mipmap.ic_app));
-            CURSOS.add(new Curso("Redes de computadoras","No tienes tareas pendientes","Angelica",R.mipmap.ic_ejemplo));
+            CURSOS.add(new Curso("Sistemas Operativos Moviles","Tienes 2 tareas","Alonso",R.mipmap.ic_app));
+            CURSOS.add(new Curso("Base de datos","Tienes 1 tarea","Ignacio",R.mipmap.ic_app));
+            CURSOS.add(new Curso("Redes de computadoras","No tienes tareas","Angelica",R.mipmap.ic_app));
 
         }
     }

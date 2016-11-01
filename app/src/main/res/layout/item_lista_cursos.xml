@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:orientation="vertical">
 
 
 
-    <LinearLayout
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+    <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:columnCount="3"
         >
         <ImageView
             android:id="@+id/curso_icono"
@@ -24,36 +30,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Titulo del Curso"
-            android:textSize="12dp"
-            android:textStyle="bold"/>
-    </LinearLayout>
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
 
         <TextView
             android:id="@+id/curso_tareas_pendientes"
             android:layout_width="wrap_content"
             android:textSize="12dp"
-            android:text="Tareas pendientes"
+            android:text="Tienes 99 Tareas Pendientes"
+            android:layout_column="1"
+            android:layout_row="0"
             android:layout_gravity="bottom"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/curso_nombre_profesor"
             android:layout_width="wrap_content"
             android:textSize="12dp"
+            android:layout_column="1"
             android:text="Nombre del profesor "
             android:layout_gravity="bottom"
             android:layout_height="wrap_content" />
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#dee4ee"
-        ></LinearLayout>
+    </GridLayout>
+
+    </android.support.v7.widget.CardView>
 
 </LinearLayout>

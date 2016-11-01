@@ -20,5 +20,6 @@ public class FragmentArchivos extends Fragment {
                              Bundle savedInstanceState) {
 
         return inflater.inflate(R.layout.fragment_archivos, container, false);
+
     }
 }

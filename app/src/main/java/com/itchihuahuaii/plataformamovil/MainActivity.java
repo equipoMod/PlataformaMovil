@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void prepararDrawer(NavigationView navigationView){
+
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -69,7 +70,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.item_inicio:
                 fragment=new FragmentInicio();
                 break;
-
         }
         if(fragment!=null){
             fragmentManager
