@@ -6,4 +6,5 @@ package com.itchihuahuaii.plataformamovil;
 
 public class Genero {
 
+
 }
